@@ -3,7 +3,6 @@ const btns = document.querySelectorAll(".button");
 const articles =document.querySelectorAll(".content");
 
 tabs.addEventListener("click", (event) => {
-  // console.log(event.target.dataset.id);
   const id = event.target.dataset.id;
 
   if (id) {
